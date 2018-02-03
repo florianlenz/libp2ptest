@@ -5,6 +5,8 @@
  */
 
 import React, { Component } from 'react';
+import nodejs from 'nodejs-mobile-react-native';
+
 import {
   Platform,
   StyleSheet,
@@ -20,6 +22,17 @@ const instructions = Platform.select({
 });
 
 export default class App extends Component<{}> {
+    componentWillMount()
+    {
+        nodejs.start("main.js");
+        nodejs.channel.addListener(
+            "message",
+            (msg) => {
+                alert("From node: " + msg);
+            },
+            this
+        );
+    }
   render() {
     return (
       <View style={styles.container}>

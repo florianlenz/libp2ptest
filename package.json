@@ -7,7 +7,10 @@
     "test": "jest"
   },
   "dependencies": {
+    "libp2p": "^0.15.1",
     "nodejs-mobile-react-native": "^0.1.3",
+    "pull-pushable": "^2.1.2",
+    "pull-stream": "^3.6.1",
     "react": "16.2.0",
     "react-native": "0.52.1"
   },

@@ -1,12 +1,22 @@
 {
-  "//": 
-  ["Rename this sample file to package.json to use on your project."
-  , "The sample-package.json file will be overwritten in updates/reinstalls."
-  ],
-  "name": "sample-node-project",
+  "name": "libp2p-test",
   "version": "0.0.1",
   "description": "node part of the project",
   "main": "main.js",
   "author": "janeasystems",
-  "license": ""
+  "license": "",
+  "dependencies": {
+    "ipfs": "^0.27.7",
+    "js-ipfs": "0.0.301",
+    "libp2p": "^0.15.1",
+    "libp2p-kad-dht": "^0.6.0",
+    "libp2p-mdns": "^0.9.1",
+    "libp2p-multiplex": "^0.5.1",
+    "libp2p-railing": "^0.7.1",
+    "libp2p-secio": "^0.9.0",
+    "libp2p-spdy": "^0.11.0",
+    "libp2p-tcp": "^0.11.2",
+    "libp2p-websockets": "^0.10.4",
+    "peer-id": "^0.10.5"
+  }
 }

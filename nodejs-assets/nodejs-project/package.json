@@ -6,8 +6,6 @@
   "author": "janeasystems",
   "license": "",
   "dependencies": {
-    "ipfs": "^0.27.7",
-    "js-ipfs": "0.0.301",
     "libp2p": "^0.15.1",
     "libp2p-kad-dht": "^0.6.0",
     "libp2p-mdns": "^0.9.1",
